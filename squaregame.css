@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+  }
+  
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+h3 {
+    color: lime;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+.rotate_image_0 {
+  -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.rotate_image_90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate_image_180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rotate_image_270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  border: 2px;
+  border-color: lime;
+}
+
+.navbar a {
+  float: left;
+  color: lime;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 2px;
+  border-color: lime;
+}
+
+
+.navbar a:hover {
+  background-color: lime;
+  color: black;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: black;
+  border: 0cap;
+  border-color: lime;
+  color: lime;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 142px;
+  height: 52px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.timer {
+  color: lime;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+/*
+table {
+  width: 926px;
+  height: 926px;
+}
+*/

@@ -1,0 +1,98 @@
+{% load static %}
+<html lang="en">
+<head>
+
+    <title>THE SQUARE GAME</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./squaregame.css"/>
+
+    <!-- Javascript -->
+    <script src="./squaregame.js" ></script>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="navbar">
+        <a href="./" width="30%">THE SQUARE GAME</a>
+        <div class="topnav-right">
+            <table>
+                <tr>
+                    <th width="50%" height="36px" class="timer" id="countup">0.00</th>
+                    <th><button id="shuffle" class="button1" width="50%">START</button></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+
+    <table width="926px" height="926px" class="center">
+        <tr height="34px">
+            <th></th>
+            <th><img class="rotate_image_270" id="red1" name="red" src="./images/red.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_90" id="purple" name="purple" src="./images/purple.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_270" id="darkblue1" name="darkblue" src="./images/darkblue.png"/></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th><img class="rotate_image_180" id="red2" name="red" src="./images/red.png"/></th>
+            <th><img id="red-sqr" name="red-sqr" src="./images/red-sqr.png"/></th>
+            <th><img class="rotate_image_0" id="red-purple" name="red-purple" src="./images/red-purple.png"/></th>
+            <th><img id="purple-sqr" name="purple-sqr" src="./images/purple-sqr.png"/></th>
+            <th><img class="rotate_image_180" id="purple-darkblue" name="purple-darkblue"  src="./images/purple-darkblue.png"/></th>
+            <th><img id="darkblue-sqr" name="darkblue-sqr" src="./images/darkblue-sqr.png"/></th>
+            <th><img class="rotate_image_0" id="darkblue2" name="darkblue" src="./images/darkblue.png"/></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><img class="rotate_image_90" id="orange-red" name="orange-red" src="./images/orange-red.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_270" id="purple-white" name="purple-white" src="./images/purple-white.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_90" id="darkblue-lightblue" name="darkblue-lightblue" src="./images/darkblue-lightblue.png"/></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th><img class="rotate_image_0" id="orange" name="orange" src="./images/orange.png"/></th>
+            <th><img id="orange-sqr" name="orange-sqr" src="./images/orange-sqr.png"/></th>
+            <th><img class="rotate_image_180" id="orange-white" name="orange-white" src="./images/orange-white.png"/></th>
+            <th><img id="white-sqr" name="white-sqr" src="./images/white-sqr.png"/></th>
+            <th><img class="rotate_image_0" id="lightblue-white" name="lightblue-white" src="./images/lightblue-white.png"/></th>
+            <th><img id="lightblue-sqr" name="lightblue-sqr" src="./images/lightblue-sqr.png"/></th>
+            <th><img class="rotate_image_180" id="lightblue" name="lightblue" src="./images/lightblue.png"/></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><img class="rotate_image_270" id="yellow-orange" name="yellow-orange" src="./images/yellow-orange.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_90" id="lightgreen-white" name="lightgreen-white" src="./images/lightgreen-white.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_270" id="lightblue-darkgreen" name="lightblue-darkgreen" src="./images/lightblue-darkgreen.png"/></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th><img class="rotate_image_180" id="yellow1" name="yellow" src="./images/yellow.png"/></th>
+            <th><img id="yellow-sqr" name="yellow-sqr" src="./images/yellow-sqr.png"/></th>
+            <th><img class="rotate_image_0" id="lightgreen-yellow" name="lightgreen-yellow" src="./images/lightgreen-yellow.png"/></th>
+            <th><img id="lightgreen-sqr" name="lightgreen-sqr" src="./images/lightgreen-sqr.png"/></th>
+            <th><img class="rotate_image_180" id="darkgreen-lightgreen" name="darkgreen-lightgreen" src="./images/darkgreen-lightgreen.png"/></th>
+            <th><img id="darkgreen-sqr" name="darkgreen-sqr" src="./images/darkgreen-sqr.png"/></th>
+            <th><img class="rotate_image_0" id="darkgreen1" name="darkgreen" src="./images/darkgreen.png"/></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><img class="rotate_image_90" id="yellow2" name="yellow" src="./images/yellow.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_270" id="lightgreen" name="lightgreen" src="./images/lightgreen.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_90" id="darkgreen2" name="darkgreen" src="./images/darkgreen.png"/></th>
+            <th></th>
+        </tr>
+    </table>
+
+</body>
+
+</html>
