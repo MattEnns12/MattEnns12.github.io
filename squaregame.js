@@ -389,7 +389,8 @@ window.onload=function(){
             // squares can be clicked
             start = true;
 
-            //Shuffle();
+            // Shuffle
+            Shuffle();
             shuffled = true;
 
             // change text from start to shuffle
