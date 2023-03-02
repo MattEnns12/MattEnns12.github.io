@@ -444,19 +444,47 @@ window.onload=function(){
         let time = document.getElementById("countup");
         time.innerHTML = "0.00";
         let milliseconds = 0;
+        let seconds = 0;
+        let minutes = 0;
         timer = setInterval(upTimer, 10);
         function upTimer() {
-            ++milliseconds;
-            let seconds = Math.floor(milliseconds / 100);
-            let upmilliseconds = milliseconds - (seconds * 100);
 
-            if(upmilliseconds < 10){
-                time.innerHTML = seconds + ".0" + upmilliseconds;
-            } else {
-                time.innerHTML = seconds + "." + upmilliseconds;
+            ++milliseconds;
+            if(milliseconds > 99){
+                ++seconds;
+                milliseconds = 0;
+            }
+            if(seconds > 59){
+                ++minutes;
+                seconds = 0;
+            }
+
+            // format timer
+            if(minutes > 0){
+                if(seconds < 10){
+                    if(milliseconds < 10){
+                        time.innerHTML = minutes + ":0" + seconds + ".0" + milliseconds;
+                    } else {
+                        time.innerHTML = minutes + ":0" + seconds + "." + milliseconds;
+                    }
+                } else{
+                    if(milliseconds < 10){
+                        time.innerHTML = minutes + ":" + seconds + ".0" + milliseconds;
+                    } else {
+                        time.innerHTML = minutes + ":" + seconds + "." + milliseconds;
+                    }
+                }
+            }
+            else{
+                if(milliseconds < 10){
+                    time.innerHTML = seconds + ".0" + milliseconds;
+                } else {
+                    time.innerHTML = seconds + "." + milliseconds;
+                }
             }
         }
     }
+    
 
     function displayComplete()
     {
