@@ -1,0 +1,77 @@
+{% load static %}
+<html lang="en">
+<head>
+
+    <title>THE SQUARE GAME</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./squaregame.css"/>
+
+    <!-- Javascript -->
+    <script src="./foursquaregame.js" ></script>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="navbar">
+        <a href="./" width="30%">9 SQUARE GAME</a>
+        <a href="./foursquaregame.html" width="30%">4 SQUARE GAME</a>
+        <div class="topnav-right">
+            <table>
+                <tr>
+                    <th width="50%" height="36px" class="timer" id="countup">0.00</th>
+                    <th><button id="shuffle" class="button1" width="50%">START</button></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+
+    <table width="926px" height="926px" class="center">
+        <tr height="34px">
+            <th></th>
+            <th><img class="rotate_image_270" id="red1" name="red" src="./images/red.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_90" id="purple1" name="purple" src="./images/purple.png"/></th>
+            <th></th>
+
+        </tr>
+        <tr>
+            <th><img class="rotate_image_180" id="red2" name="red" src="./images/red.png"/></th>
+            <th><img id="red-sqr" name="red-sqr" src="./images/red-sqr.png"/></th>
+            <th><img class="rotate_image_0" id="red-purple" name="red-purple" src="./images/red-purple.png"/></th>
+            <th><img id="purple-sqr" name="purple-sqr" src="./images/purple-sqr.png"/></th>
+            <th><img class="rotate_image_180" id="purple2" name="purple"  src="./images/purple.png"/></th>
+
+        </tr>
+        <tr>
+            <th></th>
+            <th><img class="rotate_image_90" id="orange-red" name="orange-red" src="./images/orange-red.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_270" id="purple-white" name="purple-white" src="./images/purple-white.png"/></th>
+            <th></th>
+
+        </tr>
+        <tr>
+            <th><img class="rotate_image_0" id="orange1" name="orange" src="./images/orange.png"/></th>
+            <th><img id="orange-sqr" name="orange-sqr" src="./images/orange-sqr.png"/></th>
+            <th><img class="rotate_image_180" id="orange-white" name="orange-white" src="./images/orange-white.png"/></th>
+            <th><img id="white-sqr" name="white-sqr" src="./images/white-sqr.png"/></th>
+            <th><img class="rotate_image_0" id="white1" name="white" src="./images/white.png"/></th>
+
+        </tr>
+        <tr>
+            <th></th>
+            <th><img class="rotate_image_270" id="orange2" name="orange" src="./images/orange.png"/></th>
+            <th></th>
+            <th><img class="rotate_image_90" id="white2" name="white" src="./images/white.png"/></th>
+            <th></th>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

@@ -389,6 +389,9 @@ window.onload=function(){
             // squares can be clicked
             start = true;
 
+            // prevents shuffling from ever solving 
+            shuffled = false;
+
             // Shuffle
             Shuffle();
             shuffled = true;
