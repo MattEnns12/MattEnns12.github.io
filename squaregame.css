@@ -16,6 +16,9 @@ h3 {
 }
   
 p {
+    color: lime;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
     font-family: verdana;
     font-size: 20px;
   }
