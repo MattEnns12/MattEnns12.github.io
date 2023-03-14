@@ -24,6 +24,6 @@ window.onload=function(){
     }
 
     document.getElementById("shuffle").onclick = function () {
-        location.href = "/foursquaregame.html";
+        location.href = "./foursquaregame.html";
     };
 }
