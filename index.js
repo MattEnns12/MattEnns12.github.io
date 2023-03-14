@@ -22,4 +22,8 @@ window.onload=function(){
             orangewhite.src = lightgreenwhiteimgsrc;
         });
     }
+
+    document.getElementById("shuffle").onclick = function () {
+        location.href = "/foursquaregame.html";
+    };
 }
